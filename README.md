@@ -96,6 +96,26 @@ node tests/model.test.js
 omarchy plugin validate .
 ```
 
+## Credits
+
+Built by studying plugins that came before it:
+
+- **Omarchy's first-party [Tailscale widget](https://github.com/basecamp/omarchy)**
+  (`omarchy.tailscale`) — the model for a VPN widget on the Quickshell bar: a
+  bar button that toggles on right click and opens a keyboard-navigable panel on
+  left click.
+- **Omarchy's first-party Dropbox panel** (`omarchy.dropbox`) — the compact
+  panel structure this one is shaped after (hero header with a toggle switch,
+  a scrollable list of rows, `PanelKeyCatcher` navigation).
+- **[crmne/hyprmoncfg](https://github.com/crmne/hyprmoncfg)** — reference for how
+  a third-party Omarchy plugin lays out its `manifest.json` and repository.
+
+Both first-party plugins ship with [Omarchy](https://github.com/basecamp/omarchy)
+under the MIT license. Prior Waybar-era WireGuard toggles
+([JacobusXIII/omarchy-wireguard-vpn-toggle](https://github.com/JacobusXIII/omarchy-wireguard-vpn-toggle),
+[limehawk/omarchy-vpn](https://github.com/limehawk/omarchy-vpn)) showed the
+overall idea, though none targets the Quickshell shell.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
