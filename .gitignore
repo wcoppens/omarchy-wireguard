@@ -1,0 +1,11 @@
+# Editor / OS cruft
+*~
+*.bak
+*.swp
+.DS_Store
+
+# Local WireGuard material must never be committed. The plugin never reads it,
+# but guard against a stray copy ever landing in the repo.
+*.conf
+*.key
+wg-*.conf
